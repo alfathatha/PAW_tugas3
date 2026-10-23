@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Form Pendaftaran - Tugas Individu 3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Form Pendaftaran Mahasiswa Baru</h1>
+        <form action="detail.html" method="GET">
+            <table>
+                <tr>
+                    <td><label for="nama">Nama Lengkap:</label></td>
+                    <td><input type="text" id="nama" name="nama" placeholder="Masukkan nama..."></td>
+                </tr>
+                <tr>
+                    <td><label for="nim">NIM:</label></td>
+                    <td><input type="text" id="nim" name="nim" placeholder="Masukkan NIM..."></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="email@domain.com"></td>
+                </tr>
+                <tr>
+                    <td><label for="prodi">Program Studi:</label></td>
+                    <td>
+                        <select id="prodi" name="prodi">
+                            <option value="ti">Teknik Informatika</option>
+                            <option value="si">Sistem Informasi</option>
+                            <option value="mi">Manajemen Informatika</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center;">
+                        <input type="submit" value="Daftar (GET)">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
